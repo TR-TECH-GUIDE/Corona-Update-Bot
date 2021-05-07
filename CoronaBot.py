@@ -14,19 +14,19 @@ def staat(qq):
   url = "https://api.telegram.org/bot"+BOTT+"/sendphoto"
   data = {
     "chat_id": str(qq),
-    "photo": "https://telegra.ph/file/ece9c5aedd5d44a04c184.jpg",
-    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19Bot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ @Uvindu_Bro 🇱🇰 | @charindith ",
+    "photo": "https://telegra.ph/file/871f00f6c60488b38e294.jpg",
+    "caption": "ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න. @SLCovid19slbzonebot Group එකට Add කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක.  වැඩි විස්තර සදහා /help භාවිතා කරන්න.     ~ @supunma🇱🇰 | @slbotzone",
     "parse_mode": "HTML",
     "reply_markup": {
         "inline_keyboard": [
             [
                 {
                     "text": "➕ Add me to your Group",
-                    "url": "https://t.me/SLCovid19Bot?startgroup=new"
+                    "url": "https://t.me/SLCovid19slbzonebot?startgroup=new"
                 }, 
                 {
                     "text": "🔊 Channel",
-                    "url": "https://t.me/UvinduBro"
+                    "url": "https://t.me/slbotzone"
                 }
             ]
         ]
@@ -71,7 +71,7 @@ def staa():
                     global_deaths + '</code>' + '\n' + '🙂 සුවය ලැබූ සංඛ්‍යාව = ' '<code>'  +
                     global_recovered + '</code>' + '\n' + '\n' + '\n' +
                     '✅ සියලු තොරතුරු රජයේ සහ පිලිගත් මුලාශ්‍ර මගිනි' + '\n' +
-                    '~ @UvinduBro 🇱🇰 ~')
+                    '~ @supunma🇱🇰 ~')
     return textt
 
 
