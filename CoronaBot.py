@@ -4,7 +4,7 @@ import requests
 
 APP_ID= 6021226 #my.telegram.org
 APP_HASH='7c6dd7679f9dc0ab599f336de13cedf1' #my.telegram.org
-BOTT='1728259168:AAEwDpuURuYasoJ705fFHTXjG5axkXviR3w'#@botfather
+BOTT='1960665378:AAEiYs0qm0mv4jwkQYksMZrecjktFTUa4tA'#@botfather
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
@@ -14,7 +14,7 @@ def staat(qq):
   url = "https://api.telegram.org/bot"+BOTT+"/sendphoto"
   data = {
     "chat_id": str(qq),
-    "photo": "https://telegra.ph/file/84372396e55e77df9a941.jpg",
+    "photo": "https://telegra.ph/file/e9ddefb9d8424ac91d0da.jpg",
     "caption": "😷ශ්‍රී ලංකාවේ කොරෝනා තතු එසැනින් දැනගන්න👑️. මාව ඔයාගෙ ගෘප් එකට දැම්ම ඇඩ්කරගත් පසු ස්වයංක්‍රියව නවතම කොරෝනා තතු ලබාගත හැක💎💎. අනෙකුත් විස්තර හා වැඩි විස්තර සදහා👉 /help 👈කමාන්ඩ් එක භාවිතා කරන්න👩‍💻.     ~ @omindas🇱🇰 | @sdprojectupdates 🇱🇰....",
     "parse_mode": "HTML",
     "reply_markup": {
