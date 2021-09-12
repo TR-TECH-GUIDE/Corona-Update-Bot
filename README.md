@@ -4,12 +4,7 @@
 
 ### Installation
 
-* Fork this Repo.😎
-
-* The Go to the CoronaBot.py & Edit these 👉
-                       ```APP_ID``` , ```APP_HASH``` , ```BOTT```
-                       
-* After that click the Heroku Deploy Button & Deploy it 😋
+* Click the Heroku Deploy Button & Deploy it 😋
 
 
 ### Deploy to Heroku 🏃‍♂
